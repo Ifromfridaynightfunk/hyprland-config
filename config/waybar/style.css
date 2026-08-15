@@ -1,0 +1,82 @@
+* {
+  font-family: JetBrainsMonoNerdFont;
+  font-size: 13px;
+  font-weight: bold;
+  color: #000000
+}
+window#waybar{
+    background-color: transparent;
+}
+window#waybar > box {
+    background-color: transparent;
+    border: 3px solid transparent;
+    box-shadow: 5px 10px 0px #000000;
+    border-radius: 4px
+}
+
+#workspaces button {
+    color: transparent;
+    background-color: transparent;
+    border: 2px #e0af68;
+    padding: 0 0px;
+    margin: 4px;
+    min-width: 44px;
+    margin-left: 10px;
+}
+#custom-distro,
+#custom-media,
+#network {
+    color: #ffffff;
+    background-color: #1a1b26;
+    border-style: inset;
+    border: 2px inset #e0af68;
+    border-radius: 0px;
+    min-width: 25px;
+    border: 2px inset #f1ca8f;
+    box-shadow: 6px 6px 0px #000000; 
+    margin: 3px;
+    
+}
+#clock,
+#cpu,
+#memory,
+#disk {
+    color: #ffffff;
+    background-color: #1a1b26;
+    border-style: inset;
+    border: 2px inset #e4aa53;
+    border-radius: 0px;
+    min-width: 45px;
+    border: 2px inset #dca450;
+    box-shadow: 6px 6px 0px #000000; 
+    margin: 3px;
+}
+#custom-power{
+    color: #ffffff;
+    background-color: #1a1b26;
+    border-style: inset;
+    border: 2px inset #e4aa53;
+    border-radius: 0px;
+    min-width: 25px;
+    border: 2px inset #dca450;
+    box-shadow: 3px 12px 0px #000000; 
+    margin: 3px;
+}
+#workspaces label {
+    font-size: 16px;
+    color: #ffffff
+}
+#workspaces {
+    color: #ffffff;
+    background-color: #1a1b26;
+    border-style: inset;
+    border: 2px inset #db952d;
+    border-radius: 0px;
+    min-width: 25px;
+    border: 2px inset #f1ca8f;
+    box-shadow: 6px 6px 0px #000000; 
+    margin: 3px;
+}
+
+
+
