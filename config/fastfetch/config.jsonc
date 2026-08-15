@@ -1,0 +1,98 @@
+{
+    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/master/doc/json_schema.json",
+    "logo": {
+        "type": "kitty-direct",
+        "source": "/home/casethrey/Descargas/Pixelseadrive.png",
+        "width": 25,
+        "height": 15,
+        },
+    "display": {
+        "separator": " ➤ "
+    },
+    "modules": [
+        {
+            "type": "title",
+            "format": "✧ ˚. Bienvenidos {user-name}@{host-name}! .˚✧",
+        },
+        {
+          "type": "custom",
+          "format": "╭───keys──╮"
+        },
+        {
+          "type": "title",
+          "key": "│   user │",
+          "format": "{user-name}"
+        },
+        {
+          "type": "os",
+          "key": "│  󰣇 os   │"
+        },
+        {
+          "type": "kernel",
+          "key": "│   kern │"
+        },
+        {
+          "type": "terminal",
+          "key": "│   term │"
+        },
+        {
+          "type": "cpu",
+          "key": "│   cpu  │",
+          "temp": true,
+          "format": "{name} || {temperature}"
+        },
+        {
+          "type": "gpu",
+          "key": "│   gpu  │",
+          "format": "{name} | {dedicated-total}",
+          "hideType": "integrated"
+        },
+        {
+          "type": "memory",
+          "key": "│   mem  │",
+          "format": "{used} / {total} || {percentage} "
+        },
+        {
+          "type": "disk",
+          "key": "│  󰋊 disk │",
+          "format": "{size-used} / {size-total} || {size-percentage} "
+        },
+                {
+          "type": "custom",
+          "format": "├─────────┤"
+        },
+                {
+          "type": "media",
+          "key": "│  󰲸 song │",
+          "format": "{title} by {artist} "
+        },
+        {
+          "type": "command",
+          "key": "│  󰖐 wttr │",
+          "text": "curl -s wttr.in/?format=%t"
+        },
+        {
+          "type": "custom",
+          "format": "├─────────┤"
+        },
+        {
+          "type": "uptime",
+          "key": "│   time │",
+        },
+        {
+          "type": "datetime",
+          "key": "│   date │",
+          "format": "{day-in-month} - {month} - {year} | {hour}:{minute}"
+        },
+        {
+          "type": "custom",
+          "format": "╰─────────╯"
+        },
+        {
+          "type": "colors",
+          "paddingleft": 15,
+          "symbol": "square"
+        }
+
+    ]
+}
